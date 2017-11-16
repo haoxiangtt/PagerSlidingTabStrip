@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.richinfo.widget.pagerslidingtabstrip.PagerSlidingTabStrip
+        android:id="@+id/ps"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:pstsIndicatorColor="#FF0000"
+        app:pstsIndicatorHeight="2dp" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ps"/>
+</RelativeLayout>
